@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+pre {
+  background-color: #f6f8fa;
+  padding: 1rem;
+  overflow-x: auto;
+  max-width: 80%;
+  margin: 1rem auto;
+  border: 1px solid #ddd;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}

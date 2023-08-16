@@ -1,4 +1,24 @@
-### UC23
+# UC23
+
+This React application generates fake data for movie and series titles as well as associated credits. Once generated, the user can toggle between viewing these two datasets and download them as separate CSV files.
+
+## Features:
+Data Generation: On the click of a button, generate fake data for:
+
+Titles (Movies/Series) with attributes like ID, name, description, release year, and more.
+Credits associated with these titles, including attributes like role, real name, character name, etc.
+Data Viewing: Switch between viewing titles or credits.
+
+Download as CSV: The application allows users to download the currently viewed dataset (either titles or credits) as a CSV file.
+
+## Tech Stack:
+React
+@faker-js/faker
+
+## Usage:
+Click on the "Generate Data" button to produce fake data.
+Toggle between "Show Titles" and "Show Credits" to switch the current view.
+Click the "Save as CSV" button to download the currently viewed dataset.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
